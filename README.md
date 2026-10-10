@@ -1,7 +1,19 @@
 # IT_review_site
+
+하드웨어·소프트웨어 리뷰와 자유 게시판을 제공하는 Java/Spring MVC 웹 프로젝트의 구현 기록입니다.
+
+## 프로젝트 살펴보기
+
+- [spring-project](spring-project): Maven WAR 웹 프로젝트
+- [pom.xml](spring-project/pom.xml): 빌드와 라이브러리 설정
+- [src/main](spring-project/src/main): Java 코드·리소스·웹 화면
+- [sqldeveloper](sqldeveloper): 데이터베이스 관련 자료
+
+Eclipse에서 `spring-project`를 가져와 기존 Tomcat·Oracle 환경에 맞춰 설정합니다. 아래 기능과 설계 선택은 개발 당시 기록입니다.
+
 ## 개발환경 
 - 개발언어 : Java
-- 프레임워크 : SPring
+- 프레임워크 : Spring
 - Was : Tomcat
 - DBMS : Oracle
 - IDE : Eclipse EE
